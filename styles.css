@@ -1,0 +1,213 @@
+html, body {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/pc4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: burlywood;
+}
+
+header {
+    background-color: rgba(18, 18, 18, 0.7);
+    background-attachment: fixed;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 80px;
+}
+
+.header-link li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header-link li a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 18px;
+    font-weight: bold;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.header-link li a:hover {
+    border-bottom: 5px solid burlywood;
+    font-size: 20px;
+}
+
+.active {
+    border-bottom: 5px solid burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.flex-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flex-hero div {
+    width: 100%;
+}
+
+.hero-left h1 {
+    font-size: 40px;
+}
+
+.hero-left button {
+    border: 4px solid white;
+    border-radius: 50px;
+    padding: 20px 50px 20px 50px;
+    color: white;
+    background-color: burlywood;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.hero-left button:hover {
+    border: 4px solid burlywood;
+    color: burlywood;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hero-right img {
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+/* MAIN */
+main {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 46px;
+}
+
+.flex-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+    padding: 50px 50px 50px 80px;
+    width: 80%;
+    background-color: rgba(18, 18, 18, 0.9);
+    border-radius: 10px;
+}
+
+.main-content img {
+    width: 70%;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+}
+
+.flex-quote {
+    background-image: url('./images/pc2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex-quote div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.flex-quote div p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.flex-contact {
+    background-color: rgba(18, 18, 18, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-content {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 60px 30px 60px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-right button {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.contact-right button:hover {
+    border: 2px solid burlywood;
+    color: burlywood;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: burlywood;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
